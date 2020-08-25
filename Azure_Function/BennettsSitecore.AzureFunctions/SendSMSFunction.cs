@@ -13,7 +13,7 @@ namespace BennettsSitecore.AzureFunctions
         {
             try
             {
-                log.LogInformation("Automation Testingrrrrrrrrr");
+                log.LogInformation("Automation Testing Sunny");
 
                 myQueueItem = myQueueItem.Trim().Replace("\"", "");
                 int mobIndex = myQueueItem.LastIndexOf("||");
